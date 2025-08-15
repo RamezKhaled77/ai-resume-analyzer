@@ -10,7 +10,7 @@ interface ATSProps {
     suggestions: Suggestion[];
 }
 
-const ATS: React.FC<ATSProps> = ({ score, suggestions }) => {
+export const ATS: React.FC<ATSProps> = ({ score, suggestions }) => {
     // Determine background gradient based on score
     const gradientClass = score > 69
         ? 'from-green-100'
@@ -73,5 +73,3 @@ const ATS: React.FC<ATSProps> = ({ score, suggestions }) => {
         </div>
     )
 }
-
-export default ATS

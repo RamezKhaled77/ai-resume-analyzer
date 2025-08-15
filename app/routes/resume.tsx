@@ -1,9 +1,9 @@
 import {Link, useNavigate, useParams} from "react-router";
 import {useEffect, useState} from "react";
 import {usePuterStore} from "~/lib/puter";
-import Summary from "~/components/Summary";
-import ATS from "~/components/ATS";
-import Details from "~/components/Details";
+import {Summary} from "~/components/Summary.tsx";
+import {ATS} from "~/components/ATS.tsx";
+import {Details} from "~/components/Details.tsx";
 
 export const meta = () => ([
     { title: 'Resumind | Review ' },

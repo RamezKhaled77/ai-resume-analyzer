@@ -21,7 +21,7 @@ const Category = ({ title, score }: { title: string, score: number }) => {
     )
 }
 
-const Summary = ({ feedback }: { feedback: Feedback }) => {
+export const Summary = ({ feedback }: { feedback: Feedback }) => {
     return (
         <div className="bg-white rounded-2xl shadow-md w-full">
             <div className="flex flex-row items-center p-4 gap-8">
@@ -42,4 +42,3 @@ const Summary = ({ feedback }: { feedback: Feedback }) => {
         </div>
     )
 }
-export default Summary
